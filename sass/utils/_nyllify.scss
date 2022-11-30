@@ -1,0 +1,43 @@
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+  }
+
+  .list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .body {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      background-color: $main-color;
+      color: $black-color;
+  }
+
+  .container {
+      width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+  }
+
+  .link {
+      text-decoration: none;
+  }
+
+  .section {
+      padding-top: $specific-position;
+      padding-bottom: $specific-second-position;
+  }
+
+  

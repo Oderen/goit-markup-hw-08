@@ -1,0 +1,93 @@
+
+// Variabilities + Nullify 
+
+@import "./utils/vars";
+@import "./utils/nyllify";
+
+// Normalise
+
+@import "./base/normalise";
+
+        // Sections
+ 
+// Page Header
+
+@import "./components/main-page/main-header/page-header";
+
+// Logo Header 
+
+@import "./components/common/logo-header";
+
+// Header Navigation List
+
+@import "./components/main-page/main-header/header-nav-list";
+
+// Contacts Header
+
+@import "./components/main-page/main-header/contacts-header";
+
+
+// Hero
+
+// Hero Page
+
+@import "./components/main-page/hero/hero-page";
+
+// Hero Overlay
+
+@import "./components/main-page/hero/ovarlay";
+
+// Hero Title
+
+@import "./components/main-page/hero/hero-title";
+
+// Hero Button
+
+@import "./components/main-page/hero/hero__title-button";
+
+
+// Opportunities
+
+@import "./components/main-page/opportunities-section/opportunities-section";
+
+// What We Do  
+
+@import "./components/main-page/wwd-section/wwd-section";
+
+// Team
+
+@import "./components/main-page/team-section/team-section";
+
+// Permanent Clients
+
+@import "./components/main-page/permanent-clients-section/permanent-clients-section";
+
+// Footer
+
+// Footer Page
+
+@import "./components/main-page/footer/footer-page";
+
+// Logo Footer
+
+@import "./components/common/logo-footer";
+
+// Address Footer
+
+@import "./components/main-page/footer/address-footer";
+
+// Join Block
+
+@import "./components/main-page/footer/join__block";
+
+// Form
+
+@import "./components/main-page/footer/form";
+
+// Backdrop
+
+@import "./components/main-page/backdrop/backdrop";
+
+// Portfolio Page
+
+@import "./portfolio.scss";

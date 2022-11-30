@@ -1,0 +1,25 @@
+
+/* Portfolio Header */
+
+.portfolio-header {
+    background-color: $main-color;
+    border-bottom: 1px solid $portfolio-header-color;
+}
+
+.portfolio-active-link {
+    color: $accend-color;
+}
+
+.portfolio-active-link::after {
+    display: block;
+    content: "";
+
+    width: 100%;
+    height: 4px;
+
+    margin-top: 28px;
+    margin-bottom: 0px;
+
+    background-color: $accend-color;
+    border-radius: 2px;
+}

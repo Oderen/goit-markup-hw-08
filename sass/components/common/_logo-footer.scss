@@ -1,0 +1,24 @@
+// Logo Footer
+
+.logo-footer__link {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+}
+
+.logo-footer__web {
+    color: $accend-color;
+}
+
+.logo-footer__studio {
+    color: $main-color;
+}

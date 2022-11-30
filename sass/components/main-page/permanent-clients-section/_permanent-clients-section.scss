@@ -1,0 +1,63 @@
+
+/* <!-- Permanent clients --> */
+
+.permanent-clients-page {
+    padding-top: 0px;
+    padding-bottom: 94px;
+}
+
+.clients__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: $black-color;
+
+    padding-top: 82px;
+}
+
+.clients__list {
+    display: flex;
+
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.clients__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 92px;
+
+    background-color: $main-color;
+
+    border: 1px solid $block-color;
+    border-radius: 4px;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        border: 1px solid rgba(33, 150, 243, 1);
+    }
+}
+
+.clients__icon {
+    width: 106px;
+    height: 60px;
+
+    fill: #AFB1B8;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+    fill: $accend-color;
+    }
+}
+
+.clients__item + .clients__item {
+    margin-left: 30px;
+}

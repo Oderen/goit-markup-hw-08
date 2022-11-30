@@ -1,0 +1,29 @@
+// Adress Footer
+
+.address__link {
+    font-weight: 400;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: $main-color;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: $accend-color;
+    }
+}
+
+.address {
+    margin-top: 20px;
+}
+
+.address__mail {
+    color: $rgba-color;
+    margin-top: 9px;
+}
+
+.address__tel {
+    color: $rgba-color;
+    margin-top: 9px;
+}

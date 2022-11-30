@@ -1,0 +1,50 @@
+
+/* Opportunities */
+
+.opportunities-page {
+    background-color: $main-color;
+}
+
+.opportunities-container__list {
+    display: flex;
+}
+
+.opportunities-bg {
+    display: flex;
+    content: "";
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F5F4FA;
+
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+
+    border: none;
+    border-radius: 4px;
+}
+
+.opportunities-container__item + .opportunities-container__item {
+    margin-left: 30px;
+}
+
+.opportunities-container__title {
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $black-color;
+
+    margin-bottom: 10px;
+}
+
+.opportunities-container__text {
+    font-weight: 400;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+
+    color: $gray-color;
+}
