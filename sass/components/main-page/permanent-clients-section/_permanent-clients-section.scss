@@ -4,6 +4,10 @@
 .permanent-clients-page {
     padding-top: 0px;
     padding-bottom: 94px;
+
+    @media screen and (min-width: 479px) {
+        padding-bottom: 60px;
+    }
 }
 
 .clients__title {
@@ -16,6 +20,10 @@
     color: $black-color;
 
     padding-top: 82px;
+
+    @media screen and (min-width: 479px) {
+        padding-top: 60px;
+    }
 }
 
 .clients__list {
@@ -23,6 +31,13 @@
 
     margin-top: 50px;
     justify-content: center;
+
+    @media screen and (min-width: 479px) {
+        flex-wrap: wrap;
+        margin: -15px;
+
+        outline: 1px solid red;
+        }
 }
 
 .clients__link {
@@ -42,8 +57,8 @@
 
     &:hover, &:focus {
         border: 1px solid rgba(33, 150, 243, 1);
+    }   
     }
-}
 
 .clients__icon {
     width: 106px;
@@ -60,4 +75,18 @@
 
 .clients__item + .clients__item {
     margin-left: 30px;
+
+    @media screen and (min-width: 479px) {
+        margin-left: 0;
+    } 
 }
+
+@media screen and (min-width: 479px) {
+    .clients__item {
+        width: calc((100% - 2 * 15px) / 2);
+        margin: 15px;
+    }
+}
+
+
+

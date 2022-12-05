@@ -3,6 +3,10 @@
 .wwd-section {
     padding-top: 0px;
     background-color: $main-color;
+
+    @media screen and (min-width: 479px) {
+      display: none;
+    }
 }
 
 .wwd__title {

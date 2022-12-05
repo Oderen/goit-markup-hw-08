@@ -5,6 +5,10 @@
     display: flex;
     align-items: center;
     margin-left: auto;
+
+    @media screen and (min-width: 479px) {
+        display: none;
+    }
 }
 
 .contact-header-list__item:not(:first-child) {

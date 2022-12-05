@@ -4,10 +4,22 @@
 .site-nav {
     display: flex;
     align-items: center;
+
+    @media screen and (min-width: 480px) { 
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .site-nav__list {
     display: flex;
+
+    @media  screen and (min-width: 479px) {
+        display: none;
+    }
 }
 
 .site-nav__item {
