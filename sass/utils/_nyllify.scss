@@ -26,14 +26,25 @@
   }
 
   .container {
-      width: 1200px;
-      margin: 0 auto;
-      padding: 0 15px;
+    
+    // Phone screen
+    
+    width: 480px;
+    padding: 0 15px;
+    margin: 0 auto;
 
-      @media screen and (min-width: 480px) {
-        width: 480px;
-      }
+    // Tablet
+  
+    @media screen and (min-width: 768px) {
+      width: 768px;
     }
+
+    // Deskop
+  
+    @media screen and (min-width: 1200px) {
+      width: 1200px;
+    }
+  }
 
   .link {
       text-decoration: none;
@@ -42,6 +53,12 @@
   .section {
       padding-top: $specific-position;
       padding-bottom: $specific-second-position;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
 
   

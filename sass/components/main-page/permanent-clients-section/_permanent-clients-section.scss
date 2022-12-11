@@ -2,11 +2,10 @@
 /* <!-- Permanent clients --> */
 
 .permanent-clients-page {
-    padding-top: 0px;
-    padding-bottom: 94px;
+    padding: 60px 0px;
 
-    @media screen and (min-width: 479px) {
-        padding-bottom: 60px;
+    @media screen and (min-width: 1119px) {
+        padding: 94px 0px;
     }
 }
 
@@ -16,28 +15,28 @@
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+ 
 
     color: $black-color;
 
-    padding-top: 82px;
-
-    @media screen and (min-width: 479px) {
-        padding-top: 60px;
+    @media screen and (min-width: 1119px) {
+    font-size: 36px;
+    line-height: 42px;
     }
+    
 }
 
 .clients__list {
     display: flex;
-
-    margin-top: 50px;
     justify-content: center;
-
-    @media screen and (min-width: 479px) {
-        flex-wrap: wrap;
-        margin: -15px;
-
-        outline: 1px solid red;
-        }
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    margin-top: 30px;
+    
+    @media screen and (min-width: 1119px) {
+    margin-top: 50px;
+    }
 }
 
 .clients__link {
@@ -45,7 +44,7 @@
     justify-content: center;
     align-items: center;
 
-    width: 170px;
+    width: 210px;
     height: 92px;
 
     background-color: $main-color;
@@ -58,6 +57,15 @@
     &:hover, &:focus {
         border: 1px solid rgba(33, 150, 243, 1);
     }   
+
+    @media screen and (min-width: 767px) {
+        width: 226px;
+    }
+
+    @media screen and (min-width: 1119px) {
+        width: 170px;   
+    }
+    
     }
 
 .clients__icon {
@@ -72,21 +80,4 @@
     fill: $accend-color;
     }
 }
-
-.clients__item + .clients__item {
-    margin-left: 30px;
-
-    @media screen and (min-width: 479px) {
-        margin-left: 0;
-    } 
-}
-
-@media screen and (min-width: 479px) {
-    .clients__item {
-        width: calc((100% - 2 * 15px) / 2);
-        margin: 15px;
-    }
-}
-
-
 

@@ -25,6 +25,12 @@
         display: block;
     }
 
+    @media screen and (min-width: 767px) {
+            .menu-button {
+                display: none;
+            }
+        }
+
     .menu-container {
         position: fixed;
         top: 0;
@@ -92,6 +98,11 @@
 
     .navigation__link--active {
         color: $accend-color;
+
+        // &:hover {
+        //     border-bottom: 4px solid $accend-color;
+        //     border-radius: 1px;
+        // }
     }
 
 

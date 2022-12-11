@@ -1,10 +1,32 @@
 // Adress Footer
 
 .address {
+    
+    text-align: center;
     margin-top: 20px;
+}
 
-    @media screen and (min-width: 479px) {
-        text-align: center;
+.address__item {
+    &:nth-child(2) {
+        margin-top: 8px;
+    }
+
+    @media screen and (min-width: 1119px) {
+            &:nth-child(2) {
+                    margin-top: 9px;
+                }
+        }
+}
+
+.address__item {
+    &:nth-child(3) {
+        margin-top: 8px;
+    }
+
+    @media screen and (min-width: 1119px) {
+        &:nth-child(3) {
+            margin-top: 9px;
+        }
     }
 }
 
@@ -24,18 +46,8 @@
 
 .address__mail {
     color: $rgba-color;
-    margin-top: 9px;
-
-    @media screen and (min-width: 479px) {
-        margin-top: 8px;
-    }
 }
 
 .address__tel {
     color: $rgba-color;
-    margin-top: 9px;
-
-    @media screen and (min-width: 479px) {
-            margin-top: 8px;
-        }
 }
