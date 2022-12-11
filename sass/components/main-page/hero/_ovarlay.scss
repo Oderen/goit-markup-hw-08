@@ -7,71 +7,76 @@
     padding-top: 200px;
     padding-bottom: 200px;
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     background: (rgba(47, 48, 58, 0.4));
     background-image:
     linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url(../../../images/hero/mb_480_jpg.jpg);
+    url(../../../../images/hero/mb_480_jpg.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 // Phone
 
-@media screen and 
-(-webkit-min-device-pixel-ratio: 2),
+@media screen and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .overlay {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
         background: (rgba(47, 48, 58, 0.4));
         background-image:
                 linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
                 url('../../../images/hero/mb_836_jpg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
 
-// Tablet
+// // Tablet
 
 @media screen and (min-width: 767px) {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     background: (rgba(47, 48, 58, 0.4));
     background-image:
             linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
             url(../../../../images/hero/tb_768.jpg);
+            background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
 
     @media screen and (min-device-pixel-ratio: 2),
-        (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
             .overlay {
-                background-image: url('../../../images/hero/tb_1536.jpg');
+                background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+                url('../../../images/hero/tb_1536.jpg');
+                background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
             }
 }
 
-// Deskop
+// // Deskop
 
 @media screen and (min-width: 1119px) {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     background: (rgba(47, 48, 58, 0.4));
     background-image:
         linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../../../../images/hero/ds_1600.jpg);
+        background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
 
     @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .overlay {
             background-image: url('../../../images/hero/ds_3200.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         }
 }
 

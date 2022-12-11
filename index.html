@@ -199,7 +199,9 @@
           <ul class="wwd__photo-list list">
             <li class="wwd__item">
               <div class="photo-wwd-container">
-                <img src="./images/image1.jpg" alt="computer" width="370" />
+                <img 
+                srcset="./images/wwd/optimised/img_wwd_pic1@1x.jpg, ./images/wwd/optimised/img_wwd_pic1@2x.jpg"
+                src="./images/wwd/optimised/img_wwd_pic1@1x.jpg" alt="computer" width="370" />
                 <div class="photo-wwd-inner-container">
                   <p class="photo-wwd-inner-container__text">Десктопні додатки</p>
                 </div>
@@ -207,7 +209,9 @@
             </li>
             <li class="wwd__item">
               <div class="photo-wwd-container">
-                <img src="./images/images2.jpg" alt="mobile" width="370" />
+                <img 
+                srcset="./images/wwd/optimised/img_wwd_pic2@1x.jpg, ./images/wwd/optimised/img_wwd_pic2@2x.jpg"
+                src="./images/wwd/optimised/img_wwd_pic2@1x.jpg" alt="mobile" width="370" />
                 <div class="photo-wwd-inner-container">
                   <p class="photo-wwd-inner-container__text">Мобільні додатки</p>
                 </div>
@@ -215,7 +219,9 @@
             </li>
             <li class="wwd__item">
               <div class="photo-wwd-container">
-                <img src="./images/image3.jpg" alt="tablet" width="370" />
+                <img 
+                srcset="./images/wwd/optimised/img_wwd_pic3@1x.jpg, /images/wwd/optimised/img_wwd_pic3@2x.jpg"
+                src="./images/wwd/optimised/img_wwd_pic3@1x.jpg" alt="tablet" width="370" />
                 <div class="photo-wwd-inner-container">
                   <p class="photo-wwd-inner-container__text">Дизайнерські рішення</p>
                 </div>
@@ -233,9 +239,14 @@
           <ul class="team__list list">
             <li class="team__item">
               <img
-                src="./images/person1.jpg"
+                srcset="
+                ./images/team/optimised/img_sm_person1@1x.jpg 450w
+                ./images/team/optimised/img_md_person1@1x.jpg 354w
+                ./images/team/optimised/img_lg_person1@1x.jpg 270w
+                "
+                src="./images/team/optimised/img_sm_person1@1x.jpg"
                 alt="Igor"
-                width="270"
+                width="450"
                 class="team__image"
               />
               <h3 class="team__worker">Ігор Дем'яненко</h3>
@@ -274,7 +285,13 @@
             </li>
             <li class="team__item">
               <img
-                src="./images/person2.jpg"
+                srcset="
+                ./images/team/optimised/img_sm_person2@1x.jpg 450w
+                ./images/team/optimised/img_md_person2@1x-1.jpg 354w
+                ./images/team/optimised/img_lg_p2@1x.jpg 270w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/team/optimised/img_sm_person2@1x.jpg"
                 alt="Olga"
                 width="270"
                 class="team__image"
@@ -314,7 +331,13 @@
             </li>
             <li class="team__item">
               <img
-                src="./images/person3.jpg"
+              srcset="
+                ./images/team/optimised/img_sm_person3@1x.jpg 450w
+                ./images/team/optimised/img_md_person3@1x-2.jpg 354w
+                ./images/team/optimised/img_lg_p3@1x.jpg 270w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/team/optimised/img_sm_person3@1x.jpg"
                 alt="Mykola"
                 width="270"
                 class="team__image"
@@ -354,7 +377,13 @@
             </li>
             <li class="team__item">
               <img
-                src="./images/person4.jpg"
+                srcset="
+                ./images/team/optimised/img_sm_person4@1x.jpg 450w
+                ./images/team/optimised/img_md_person4@1x-3.jpg 354w
+                ./images/team/optimised/img_lg_p4@1x.jpg 270w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/team/optimised/img_sm_person4@1x.jpg"
                 alt="Mykhailo"
                 width="270"
                 class="team__image"
