@@ -4,6 +4,10 @@
     
     text-align: center;
     margin-top: 20px;
+
+    @media screen and (min-width: 1199px) {
+    text-align: unset;
+    }
 }
 
 .address__item {
@@ -11,7 +15,7 @@
         margin-top: 8px;
     }
 
-    @media screen and (min-width: 1119px) {
+    @media screen and (min-width: 1199px) {
             &:nth-child(2) {
                     margin-top: 9px;
                 }
@@ -23,7 +27,7 @@
         margin-top: 8px;
     }
 
-    @media screen and (min-width: 1119px) {
+    @media screen and (min-width: 1199px) {
         &:nth-child(3) {
             margin-top: 9px;
         }

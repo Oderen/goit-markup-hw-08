@@ -238,6 +238,9 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list list">
             <li class="team__item">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="" >
+              </picture>
               <img
                 srcset="
                 ./images/team/optimised/img_sm_person1@1x.jpg 450w
@@ -641,12 +644,12 @@
               placeholder="Введіть текст"
             ></textarea>
           </div>
-        </form>
+        
 
-        <!-- Contract conditions -->
+         <!-- Contract conditions -->
 
-        <div class="contract container-contract-conditions">
-          <form class="form-contract">
+         <div class="contract container-contract-conditions">
+          <div class="form-contract">
             <label class="checkbox">
               <input
                 class="checkbox__input"
@@ -657,14 +660,15 @@
               />
               <span class="checkbox__icon"></span>
             </label>
-          </form>
+          </div>
           <p class="contract__text">
             Погоджуюся з розсилкою та приймаю
             <a class="contract__link" href="/">Умови договору</a>
           </p>
-        </div>
+         </div>
 
-        <button type="submit" class="contract__button">Відправити</button>
+         <button type="submit" class="contract__button">Відправити</button>
+        </form>
       </div>
     </div>
 
