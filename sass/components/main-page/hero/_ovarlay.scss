@@ -26,7 +26,7 @@
         background-image:
                 linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url('../../../../images/hero/mb_836_jpg.jpg');
+                url('../images/hero/mb_836_jpg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -40,7 +40,7 @@
     background-image:
             linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(../../../../images/hero/tb_768.jpg);
+            url(../images/hero/tb_768.jpg);
             background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -50,7 +50,7 @@
         (min-resolution: 2dppx) {
             .overlay {
                 background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
-                url('../../../images/hero/tb_1536.jpg');
+                url('../images/hero/tb_1536.jpg');
                 background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
@@ -64,7 +64,7 @@
     background-image:
         linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(../../../../images/hero/ds_1600.jpg);
+        url(../images/hero/ds_1600.jpg);
         background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -73,7 +73,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .overlay {
-            background-image: url('../../../images/hero/ds_3200.jpg');
+            background-image: url('../images/hero/ds_3200.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
