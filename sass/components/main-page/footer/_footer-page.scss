@@ -10,18 +10,19 @@
     display: block;
     align-items: center;
 
-
-    @media screen and (min-width: 1199px) {
-            display: flex;
-            justify-content: space-between;
-            align-items: unset;
-        }
-    }
+    width: 100%;
    
     @media screen and (min-width: 767px) {
             .tablet-footer-position {
                 display: flex;
                 justify-content: center;
+            }
+    
+    @media screen and (min-width: 1199px) {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: unset;
+            }
             }
         }
 
