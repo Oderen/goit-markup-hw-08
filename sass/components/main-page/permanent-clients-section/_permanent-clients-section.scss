@@ -1,6 +1,13 @@
 
 /* <!-- Permanent clients --> */
 
+@media screen and (max-width: 466px) {
+    .clients {
+        width: 100%;
+    }
+} 
+
+
 .permanent-clients-page {
     padding: 60px 0px;
 

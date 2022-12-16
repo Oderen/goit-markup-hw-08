@@ -5,3 +5,11 @@
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
+@media screen and (max-width: 466px) {
+    .hero {
+        width: 100%;
+        padding-left: auto;
+        padding-right: auto;
+    }
+}

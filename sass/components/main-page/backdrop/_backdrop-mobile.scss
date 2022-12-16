@@ -13,14 +13,6 @@
         background-color: transparent;
     }
 
-    // .menu-button__icon-cross {
-    //    display: none;
-    // }
-
-    // .menu-button.is-open .menu-button__icon-cross {
-    //     display: block;
-    // }
-
     .menu-button__icon-burger {
         display: block;
 
@@ -34,14 +26,14 @@
         position: fixed;
         top: 0px;
         left: 0;
-        width: 100vw;
+        width: 100%;
         min-height: 100vh;
 
         padding: 40px;
 
         background-color: rgba($color: white, $alpha: 1.0);
 
-        // overflow-y: scroll;
+        overflow-y: scroll;
         // z-index: 999;
 
         transform: translateX(100%);
@@ -50,10 +42,6 @@
 
         &.is-open {
             transform: translateX(0);
-        }
-
-        @media screen and (max-width: 479px) {
-            display: none;
         }
     }
 
