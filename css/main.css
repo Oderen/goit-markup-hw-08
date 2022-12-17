@@ -356,8 +356,8 @@ summary {
     position: fixed;
     top: 0px;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     padding: 40px;
     background-color: white;
     overflow-y: scroll;
@@ -2063,8 +2063,8 @@ textarea {
     position: fixed;
     top: 0px;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     padding: 40px;
     background-color: white;
     overflow-y: scroll;
