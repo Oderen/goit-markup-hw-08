@@ -356,8 +356,8 @@ summary {
     position: fixed;
     top: 0px;
     left: 0;
-    width: 100%;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     padding: 40px;
     background-color: white;
     overflow-y: scroll;
@@ -372,6 +372,16 @@ summary {
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
+}
+@media screen and (max-width: 766px) and (max-width: 466px) {
+  .menu-container.is-open .contacts-social__link {
+    font-size: 10px;
+  }
+  .menu-container.is-open .contacts__link--active {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 766px) {
   .menu-container__close-button {
     position: absolute;
     top: 10px;
@@ -388,16 +398,24 @@ summary {
     background-color: transparent;
     border: none;
   }
+}
+@media screen and (max-width: 766px) {
   .menu-container__cross-icon:hover,
 .menu-container__cross-icon :focus {
     fill: #2196F3;
   }
+}
+@media screen and (max-width: 766px) {
   .navigation__item {
     margin-bottom: 38px;
   }
+}
+@media screen and (max-width: 766px) {
   .navigation__item:not(:last-child) {
     margin-bottom: 38px;
   }
+}
+@media screen and (max-width: 766px) {
   .navigation__link {
     font-style: normal;
     font-weight: 500;
@@ -410,15 +428,21 @@ summary {
   .navigation__link:hover {
     color: #2196F3;
   }
+}
+@media screen and (max-width: 766px) {
   .navigation__link--active {
     color: #2196F3;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts__item:first-child {
     margin-top: 302px;
   }
   .contacts__item:last-child {
     margin-top: 34px;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts__link {
     font-style: normal;
     font-weight: 500;
@@ -427,17 +451,23 @@ summary {
     letter-spacing: 0.02em;
     color: #757575;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts__link--active {
     font-size: 34px;
     line-height: 40px;
     color: #2196F3;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts-social__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 64px;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts-social__item {
     margin-right: 10px;
     border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -448,6 +478,8 @@ summary {
     border: none;
     padding-right: 0px;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts-social__link {
     font-weight: 500;
     font-size: 18px;
@@ -2031,8 +2063,8 @@ textarea {
     position: fixed;
     top: 0px;
     left: 0;
-    width: 100%;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     padding: 40px;
     background-color: white;
     overflow-y: scroll;
@@ -2047,6 +2079,16 @@ textarea {
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
+}
+@media screen and (max-width: 766px) and (max-width: 466px) {
+  .menu-container.is-open .contacts-social__link {
+    font-size: 10px;
+  }
+  .menu-container.is-open .contacts__link--active {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 766px) {
   .menu-container__close-button {
     position: absolute;
     top: 10px;
@@ -2063,16 +2105,24 @@ textarea {
     background-color: transparent;
     border: none;
   }
+}
+@media screen and (max-width: 766px) {
   .menu-container__cross-icon:hover,
 .menu-container__cross-icon :focus {
     fill: #2196F3;
   }
+}
+@media screen and (max-width: 766px) {
   .navigation__item {
     margin-bottom: 38px;
   }
+}
+@media screen and (max-width: 766px) {
   .navigation__item:not(:last-child) {
     margin-bottom: 38px;
   }
+}
+@media screen and (max-width: 766px) {
   .navigation__link {
     font-style: normal;
     font-weight: 500;
@@ -2085,15 +2135,21 @@ textarea {
   .navigation__link:hover {
     color: #2196F3;
   }
+}
+@media screen and (max-width: 766px) {
   .navigation__link--active {
     color: #2196F3;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts__item:first-child {
     margin-top: 302px;
   }
   .contacts__item:last-child {
     margin-top: 34px;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts__link {
     font-style: normal;
     font-weight: 500;
@@ -2102,17 +2158,23 @@ textarea {
     letter-spacing: 0.02em;
     color: #757575;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts__link--active {
     font-size: 34px;
     line-height: 40px;
     color: #2196F3;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts-social__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 64px;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts-social__item {
     margin-right: 10px;
     border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -2123,6 +2185,8 @@ textarea {
     border: none;
     padding-right: 0px;
   }
+}
+@media screen and (max-width: 766px) {
   .contacts-social__link {
     font-weight: 500;
     font-size: 18px;
