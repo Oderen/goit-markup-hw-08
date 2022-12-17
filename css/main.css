@@ -352,6 +352,10 @@ summary {
 .menu-button__icon-burger :focus {
     fill: #2196F3;
   }
+  .menu-mob-container {
+    width: 100%;
+    height: 100%;
+  }
   .menu-container {
     position: fixed;
     top: 0px;
@@ -2058,6 +2062,10 @@ textarea {
   .menu-button__icon-burger:hover,
 .menu-button__icon-burger :focus {
     fill: #2196F3;
+  }
+  .menu-mob-container {
+    width: 100%;
+    height: 100%;
   }
   .menu-container {
     position: fixed;
