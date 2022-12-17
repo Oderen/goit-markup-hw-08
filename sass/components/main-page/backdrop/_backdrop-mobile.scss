@@ -47,6 +47,14 @@
 
         &.is-open {
             transform: translateX(0);
+
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+
+            width: 100%;
+            height: 100%;
+            
             
             @media screen and (max-width: 466px) {
 
@@ -113,18 +121,6 @@
         //     border-bottom: 4px solid $accend-color;
         //     border-radius: 1px;
         // }
-    }
-
-
-    .contacts__item {
-
-        &:first-child {
-            margin-top: 302px;
-        }
-
-        &:last-child {
-            margin-top: 34px;
-        }
     }
 
     .contacts__link {
