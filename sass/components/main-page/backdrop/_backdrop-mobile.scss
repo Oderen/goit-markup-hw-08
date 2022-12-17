@@ -42,8 +42,9 @@
 
         &.is-open {
             transform: translateX(0);
-
+            
             @media screen and (max-width: 466px) {
+
                 .contacts-social__link {
                 font-size: 10px;
                 }
@@ -51,13 +52,10 @@
                 .contacts__link--active {
                 font-size: 27px;
                 }
+
             }
         }
     }
-
-    // .menu-container.is-open {
-    //     transform: translateX(0);
-    // }
     
     .menu-container__close-button {
         position: absolute;
